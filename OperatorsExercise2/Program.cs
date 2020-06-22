@@ -25,6 +25,16 @@ namespace OperatorsExercise2
 
             Console.WriteLine($"{area}");
 
+            
+            ///Decrement/Increment
+            
+            var i = 3;
+            var j = 4;
+            var k = ++i * j++;    // Prefix says that you increment or decrement prior to the operation
+                                  // Postfix says we will increment or decrement later.....it would occurr after the operation is done
+            Console.WriteLine(k);
+
+
 
         }
         public static double AreaOfCircle(double radius)
